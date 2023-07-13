@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Icon -->
+    <link rel="shortcut icon"
+        href="https://www.creativefabrica.com/wp-content/uploads/2021/09/06/Q-logo-design-vector-Graphics-16870164-1-580x386.jpg"
+        type="image/x-icon">
+    <title>Quotes App</title>
+    <!-- Bootstrap -->
+    <!-- Local -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- CSS files -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main class="text-center py-5">
+        <section class="quote-content h-100 d-flex justify-content-center align-items-center">
+            <div class="container">
+                <h1 class="text-center fw-bolder mb-5">Quote of the Day</h1>
+                <!-- <p>Press the button below to recieve a random quote!</p> -->
+                <div id="quoteCaption" class="p-5 rounded-3">
+                    <button id="generateQuote" class="btn btn-outline-dark px-5 py-3 mb-4">New Quote</button>
+                    <div id="authorImg" class="mb-3"></div>
+                    <p id="quoteText" class="lead text-dark text-secondary"></p>
+                    <p id="quoteAuthor" class="font-monospace fs-4 text-dark"></p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

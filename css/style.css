@@ -1,0 +1,47 @@
+.quote-content{
+    letter-spacing: 1px;
+    padding: 10px;
+}
+.quote-title p{
+    color: #BBB;
+    font-size: 18px;
+    text-decoration: underline;
+}
+#quoteCaption{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;    
+}
+#generateQuote{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 60px;
+}
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: 70px;
+}
+img{
+    width: 90px;
+    height: 90px;
+}
+#quoteText{
+    font-style: italic;
+    font-size: 25px;
+    font-weight: 600;
+}
+/* `md` applies to small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { 
+    h1{
+        font-size: 60px;
+    }
+ }
+ /* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    h1{
+        font-size: 50px;
+    }
+    .quote-content{
+            margin: 50px 0 0 0;
+
+    }
+ }
