@@ -2,7 +2,7 @@
 Built with:
 - HTML5 [Semantic Tags]
 - CSS3 [Media Query]
-- Bootstrap [Utilities, and Layout]
+- Bootstrap5 [Utilities, and Layout]
 - JS [Objects, Array, DOM Selection, DOM Manipulation, Event Listener, and CSS Manipulation]
 
 Video:
